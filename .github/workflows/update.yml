@@ -39,3 +39,5 @@ jobs:
           git add data.json
           git commit -m "chore: 更新贡献日历数据 $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+
+# trigger: register workflow
